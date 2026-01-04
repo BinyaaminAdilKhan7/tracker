@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #1e293b;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    padding: 20px;
+}
+.main{
+    width: 350px;
+}
+.balance{
+    text-align: center;
+    background-color: #334155;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+.summary{
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+}
+
+.income{
+    background-color: rgb(15, 142, 15);
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+.Expense{
+    background-color: rgb(153, 35, 14);
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+form{
+    margin: 15px;
+}
+form div{
+    display: flex;
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button{
+    background-color:#2563eb;
+    width: 100%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding:10px;
+}
+.filters{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+.main2{
+    display: flex;
+
+}
+.filters button{
+    width: 30%;
+     background-color: #334155;
+}
+.filters .active{
+    background-color:#2563eb;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #334155;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-right: 5px solid;
+}
+
+li.plus {
+  border-color: #22c55e;
+}
+
+li.minus {
+  border-color: #ef4444;
+}
+
+.delete {
+  cursor: pointer;
+}
+h1{
+    text-align: center;
+}
